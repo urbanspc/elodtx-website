@@ -49,7 +49,8 @@ function formatCostPerUser(price: number, mau: number): string {
 
 export function PricingCalculator({ className }: PricingCalculatorProps) {
   const [sliderValue, setSliderValue] = useState(mauToSlider(25000));
-  const sliderId = useId();
+  const rawId = useId();
+  const sliderId = rawId.replace(/:/g, "-");
   const mau = sliderToMau(sliderValue);
   const tier = getTier(mau);
 
@@ -59,7 +60,7 @@ export function PricingCalculator({ className }: PricingCalculatorProps) {
   return (
     <div className={className}>
       <style>{`
-        #${CSS.escape(sliderId)} {
+        #${sliderId} {
           -webkit-appearance: none;
           appearance: none;
           width: 100%;
@@ -75,7 +76,7 @@ export function PricingCalculator({ className }: PricingCalculatorProps) {
             #252540 100%
           );
         }
-        #${CSS.escape(sliderId)}::-webkit-slider-thumb {
+        #${sliderId}::-webkit-slider-thumb {
           -webkit-appearance: none;
           appearance: none;
           width: 20px;
@@ -87,10 +88,10 @@ export function PricingCalculator({ className }: PricingCalculatorProps) {
           box-shadow: 0 0 0 2px #C9A84C;
           transition: box-shadow 0.15s ease;
         }
-        #${CSS.escape(sliderId)}::-webkit-slider-thumb:hover {
+        #${sliderId}::-webkit-slider-thumb:hover {
           box-shadow: 0 0 0 4px rgba(201,168,76,0.3);
         }
-        #${CSS.escape(sliderId)}::-moz-range-thumb {
+        #${sliderId}::-moz-range-thumb {
           width: 20px;
           height: 20px;
           border-radius: 50%;
@@ -99,7 +100,7 @@ export function PricingCalculator({ className }: PricingCalculatorProps) {
           border: 3px solid #0D0D1A;
           box-shadow: 0 0 0 2px #C9A84C;
         }
-        #${CSS.escape(sliderId)}::-moz-range-track {
+        #${sliderId}::-moz-range-track {
           height: 6px;
           border-radius: 3px;
           background: #252540;
