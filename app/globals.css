@@ -152,6 +152,50 @@
   }
 }
 
+/* Illuminated Hero animations */
+@keyframes onloadopacity {
+  24% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes onloadbgt {
+  0% {
+    translate: 0 -70%;
+    opacity: 0.3;
+  }
+  100% {
+    translate: 0 -64%;
+    opacity: 0.8;
+  }
+}
+
+@keyframes onloadbgb {
+  0% {
+    translate: 0 70%;
+    opacity: 0.3;
+  }
+  100% {
+    translate: 0 64%;
+    opacity: 0.8;
+  }
+}
+
+.shadow-bgt {
+  box-shadow: 0 0 120px 60px rgba(201, 168, 76, 0.4),
+              0 0 240px 120px rgba(201, 168, 76, 0.2),
+              0 0 360px 180px rgba(201, 168, 76, 0.1);
+}
+
+.shadow-bgb {
+  box-shadow: 0 0 120px 60px rgba(201, 168, 76, 0.3),
+              0 0 240px 120px rgba(201, 168, 76, 0.15),
+              0 0 360px 180px rgba(201, 168, 76, 0.05);
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
