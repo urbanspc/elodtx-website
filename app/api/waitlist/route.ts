@@ -3,11 +3,11 @@ import { NextRequest, NextResponse } from "next/server";
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, company, email, platformType, mauRange, message } = body;
+    const { name, company, email, platform, mau, message } = body;
 
-    if (!name || !company || !email || !platformType || !mauRange) {
+    if (!email) {
       return NextResponse.json(
-        { error: "Missing required fields" },
+        { error: "Email is required" },
         { status: 400 }
       );
     }
@@ -22,12 +22,12 @@ export async function POST(request: NextRequest) {
 
     // In production, forward to email service, database, or CRM
     console.log("Waitlist submission:", {
-      name,
-      company,
+      name: name || "(compact form)",
+      company: company || "",
       email,
-      platformType,
-      mauRange,
-      message,
+      platform: platform || "",
+      mau: mau || "",
+      message: message || "",
     });
 
     return NextResponse.json({
