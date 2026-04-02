@@ -187,8 +187,8 @@ export default function Footer() {
       </div>
 
       {/* Text hover effect — large "EloDtx" with interactive glow on hover */}
-      <div className="lg:flex hidden h-[30rem] -mt-52 -mb-36">
-        <TextHoverEffect text="EloDtx" className="z-50" />
+      <div className="lg:flex hidden h-[30rem] -mt-52 -mb-36 pointer-events-none">
+        <TextHoverEffect text="EloDtx" className="z-0" />
       </div>
 
       <FooterBackgroundGradient />
