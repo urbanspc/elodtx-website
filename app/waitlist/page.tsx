@@ -5,10 +5,17 @@ import { WaitlistForm } from "@/components/shared/waitlist-form";
 export const metadata: Metadata = {
   title: SEO.pages.waitlist.title,
   description: SEO.pages.waitlist.description,
+  keywords: SEO.pages.waitlist.keywords,
   openGraph: {
     title: SEO.pages.waitlist.title,
     description: SEO.pages.waitlist.description,
     siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.waitlist.title,
+    description: SEO.pages.waitlist.description,
   },
 };
 

@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
+import { SEO } from "@/lib/constants";
 import { SectionReveal } from "@/components/shared/section-reveal";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — EloDtx",
-  description:
-    "How EloDtx collects, uses, and protects your personal data. Privacy-first connection intelligence.",
+  title: SEO.pages.privacy.title,
+  description: SEO.pages.privacy.description,
+  keywords: SEO.pages.privacy.keywords,
+  openGraph: {
+    title: SEO.pages.privacy.title,
+    description: SEO.pages.privacy.description,
+    siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.privacy.title,
+    description: SEO.pages.privacy.description,
+  },
 };
 
 const LAST_UPDATED = "2 April 2026";

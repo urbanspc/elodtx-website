@@ -8,6 +8,7 @@ import { TrainingPathTimeline } from "@/components/how-it-works/training-path-ti
 export const metadata: Metadata = {
   title: SEO.pages.howItWorks.title,
   description: SEO.pages.howItWorks.description,
+  keywords: SEO.pages.howItWorks.keywords,
   openGraph: {
     title: SEO.pages.howItWorks.title,
     description: SEO.pages.howItWorks.description,

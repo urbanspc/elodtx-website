@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
+import { SEO } from "@/lib/constants";
 import { SectionReveal } from "@/components/shared/section-reveal";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — EloDtx",
-  description:
-    "Terms and conditions governing the use of the EloDtx connection intelligence platform and APIs.",
+  title: SEO.pages.terms.title,
+  description: SEO.pages.terms.description,
+  keywords: SEO.pages.terms.keywords,
+  openGraph: {
+    title: SEO.pages.terms.title,
+    description: SEO.pages.terms.description,
+    siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.terms.title,
+    description: SEO.pages.terms.description,
+  },
 };
 
 const LAST_UPDATED = "2 April 2026";

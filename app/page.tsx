@@ -13,6 +13,7 @@ import { FinalCTA } from "@/components/home/final-cta";
 export const metadata: Metadata = {
   title: SEO.pages.home.title,
   description: SEO.pages.home.description,
+  keywords: SEO.pages.home.keywords,
   openGraph: {
     title: SEO.pages.home.title,
     description: SEO.pages.home.description,

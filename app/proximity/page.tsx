@@ -8,10 +8,17 @@ import { ProximityFAQ } from "@/components/proximity/proximity-faq";
 export const metadata: Metadata = {
   title: SEO.pages.proximity.title,
   description: SEO.pages.proximity.description,
+  keywords: SEO.pages.proximity.keywords,
   openGraph: {
     title: SEO.pages.proximity.title,
     description: SEO.pages.proximity.description,
     siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.proximity.title,
+    description: SEO.pages.proximity.description,
   },
 };
 

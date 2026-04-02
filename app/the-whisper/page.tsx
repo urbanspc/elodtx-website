@@ -6,10 +6,17 @@ import { WhisperSourcesDiagram } from "@/components/the-whisper/whisper-sources-
 export const metadata: Metadata = {
   title: SEO.pages.theWhisper.title,
   description: SEO.pages.theWhisper.description,
+  keywords: SEO.pages.theWhisper.keywords,
   openGraph: {
     title: SEO.pages.theWhisper.title,
     description: SEO.pages.theWhisper.description,
     siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.theWhisper.title,
+    description: SEO.pages.theWhisper.description,
   },
 };
 

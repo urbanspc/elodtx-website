@@ -649,38 +649,62 @@ export const SEO = {
   siteUrl: "https://elodtx.com",
   defaultTitle: "EloDtx — The AI Connection Intelligence Platform",
   defaultDescription: "Purpose-built AI that understands, predicts and improves human connection. 138 dimensions. 5 specialized agents. Real results.",
+  defaultKeywords: ["EloDtx", "connection intelligence", "AI matching", "compatibility API", "human connection AI", "behavioral AI", "dating AI", "matchmaking technology", "relationship intelligence", "AI platform"],
   pages: {
     home: {
       title: "EloDtx — The AI Connection Intelligence Platform",
       description: "Purpose-built AI that understands, predicts and improves human connection. 138 dimensions. 5 agents. Real results.",
+      keywords: ["EloDtx", "AI connection intelligence", "compatibility scoring", "human connection platform", "AI matchmaking", "behavioral AI engine", "138-dimension profiles", "connection API"],
     },
     howItWorks: {
       title: "How EloDtx Works — Whispers, Proximity & Behavioral AI",
       description: "The Whisper System, Safe Proximity, and the behavior learning loop explained. See how EloDtx connects the right people.",
+      keywords: ["whisper system", "safe proximity", "behavioral AI", "compatibility scoring", "how EloDtx works", "AI matching algorithm", "geohash privacy", "real-time matching"],
     },
     industries: {
       title: "Industries — EloDtx for Dating, HR, Wellness & More",
       description: "Connection intelligence for dating, recruitment, wellness, networking, enterprise and education platforms.",
+      keywords: ["dating AI", "HR matching", "recruitment AI", "wellness platform", "professional networking AI", "enterprise team building", "education mentorship", "connection intelligence industries"],
     },
     theWhisper: {
       title: "The Whisper — EloDtx Never Speaks For You",
       description: "EloDtx whispers contextual suggestions so you never miss a moment. See how it transforms conversations.",
+      keywords: ["whisper system", "AI conversation assistant", "contextual suggestions", "real-time coaching", "connection coaching AI", "conversation intelligence"],
     },
     proximity: {
       title: "Safe Proximity — Serendipity Powered by Intelligence",
       description: "Real-time compatibility scoring with geohash privacy. Apple Watch integration. Privacy-first real-world connection.",
+      keywords: ["safe proximity", "geohash privacy", "Apple Watch matching", "real-world connection", "location-based matching", "privacy-first dating", "IRL matching", "proximity intelligence"],
     },
     developers: {
       title: "EloDtx API Documentation — Quick Start & SDKs",
       description: "REST API docs, code examples in JavaScript, Python, and Swift. Rate limits, SDKs, and interactive pricing calculator.",
+      keywords: ["EloDtx API", "connection intelligence API", "matching API", "compatibility SDK", "REST API docs", "JavaScript SDK", "Python SDK", "Swift SDK", "API pricing"],
     },
     about: {
       title: "About EloDtx — Built in Mauritius for the World",
       description: "The origin story, technology, team, and investment behind the AI Connection Intelligence Platform.",
+      keywords: ["about EloDtx", "Urban Space Web Technologies", "Eloclouds Limited", "Mauritius AI startup", "connection intelligence company", "Baeyond", "Âme Intense", "AI startup"],
     },
     waitlist: {
       title: "Join the EloDtx Waitlist — First 10 Partners Get 90 Days Free",
       description: "Be among the first platforms powered by EloDtx. Apply for early access with full dedicated support.",
+      keywords: ["EloDtx waitlist", "early access", "AI platform beta", "connection intelligence partner", "free trial", "API early access"],
+    },
+    privacy: {
+      title: "Privacy Policy — EloDtx",
+      description: "How EloDtx collects, uses, and protects your personal data. Privacy-first connection intelligence.",
+      keywords: ["EloDtx privacy policy", "data protection", "personal data", "privacy-first AI", "GDPR compliant", "data security"],
+    },
+    terms: {
+      title: "Terms of Service — EloDtx",
+      description: "Terms and conditions governing the use of the EloDtx connection intelligence platform and APIs.",
+      keywords: ["EloDtx terms of service", "terms and conditions", "API terms", "platform agreement", "acceptable use"],
+    },
+    gdpr: {
+      title: "GDPR Compliance — EloDtx",
+      description: "How EloDtx complies with the EU General Data Protection Regulation. Your rights, our commitments.",
+      keywords: ["EloDtx GDPR", "GDPR compliance", "data protection regulation", "data subject rights", "DPA", "data processing agreement", "privacy by design"],
     },
   },
 };

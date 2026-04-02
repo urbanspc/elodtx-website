@@ -18,6 +18,19 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: SEO.defaultTitle,
   description: SEO.defaultDescription,
+  keywords: SEO.defaultKeywords,
+  openGraph: {
+    title: SEO.defaultTitle,
+    description: SEO.defaultDescription,
+    siteName: SEO.siteName,
+    type: "website",
+    url: SEO.siteUrl,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.defaultTitle,
+    description: SEO.defaultDescription,
+  },
 };
 
 export default function RootLayout({

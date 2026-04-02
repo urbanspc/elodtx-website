@@ -10,6 +10,7 @@ import { RateLimitsTable } from "@/components/developers/rate-limits-table";
 export const metadata: Metadata = {
   title: SEO.pages.developers.title,
   description: SEO.pages.developers.description,
+  keywords: SEO.pages.developers.keywords,
   openGraph: {
     title: SEO.pages.developers.title,
     description: SEO.pages.developers.description,

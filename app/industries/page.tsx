@@ -6,6 +6,7 @@ import { SectionReveal } from "@/components/shared/section-reveal";
 export const metadata: Metadata = {
   title: SEO.pages.industries.title,
   description: SEO.pages.industries.description,
+  keywords: SEO.pages.industries.keywords,
   openGraph: {
     title: SEO.pages.industries.title,
     description: SEO.pages.industries.description,

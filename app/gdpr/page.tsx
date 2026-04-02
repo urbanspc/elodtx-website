@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
+import { SEO } from "@/lib/constants";
 import { SectionReveal } from "@/components/shared/section-reveal";
 
 export const metadata: Metadata = {
-  title: "GDPR Compliance — EloDtx",
-  description:
-    "How EloDtx complies with the EU General Data Protection Regulation. Your rights, our commitments.",
+  title: SEO.pages.gdpr.title,
+  description: SEO.pages.gdpr.description,
+  keywords: SEO.pages.gdpr.keywords,
+  openGraph: {
+    title: SEO.pages.gdpr.title,
+    description: SEO.pages.gdpr.description,
+    siteName: SEO.siteName,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SEO.pages.gdpr.title,
+    description: SEO.pages.gdpr.description,
+  },
 };
 
 const LAST_UPDATED = "2 April 2026";

@@ -8,6 +8,7 @@ import { TeamStructure } from "@/components/about/team-structure";
 export const metadata: Metadata = {
   title: SEO.pages.about.title,
   description: SEO.pages.about.description,
+  keywords: SEO.pages.about.keywords,
   openGraph: {
     title: SEO.pages.about.title,
     description: SEO.pages.about.description,
