@@ -170,15 +170,15 @@ export default function Footer() {
               © 2026 Urban Space Web Technologies Ltd · Mauritius · Built in partnership with Eloclouds Limited UK
             </p>
             <div className="flex items-center gap-3 mt-1 justify-center md:justify-end">
-              <Link href="#" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
+              <Link href="/privacy" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
                 Privacy Policy
               </Link>
               <span className="text-[rgba(255,255,255,0.2)] text-xs">|</span>
-              <Link href="#" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
+              <Link href="/terms" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
                 Terms of Service
               </Link>
               <span className="text-[rgba(255,255,255,0.2)] text-xs">|</span>
-              <Link href="#" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
+              <Link href="/gdpr" className="text-[rgba(255,255,255,0.4)] hover:text-brand-gold text-xs transition-colors">
                 GDPR
               </Link>
             </div>
